@@ -1,0 +1,184 @@
+.main{
+	display:flex;
+	flex-direction: row;
+	border: 2px solid #ddd;
+
+}
+
+.left{
+	border :2px solid #ddd;
+	margin :2%;
+	padding : 2%;
+	width :30%;
+	text-align: center;
+}
+img{
+	display:block;
+	border : 3px dashed black;
+	border-radius: 60%;
+
+}
+
+.right{
+
+	border : 2px solid #ddd;
+	margin : 2%;
+	padding: 2%;
+	width: 70%;
+}
+
+table{
+	border:2px solid #ddd;
+    width:90%;
+    padding: 2%;
+
+}
+ol{
+	font-size: 18px;
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 480px){
+	.main{
+	display:flex;
+	flex-direction: column;
+	border: 2px solid #ddd;
+
+}
+
+.left{
+	border :2px solid #ddd;
+	margin :2%;
+	padding : 2%;
+	width :90%;
+	text-align: center;
+}
+
+a,h3,h4,h2,p{
+    word-wrap: break-word;
+
+  }
+
+img{
+	display:block;
+	border : 3px dashed black;
+	border-radius: 60%;
+
+
+}
+.right{
+
+	border : 2px solid #ddd;
+	margin : 2%;
+	padding: 2%;
+	width: 90%;
+}
+table{
+    width:90%
+  }
+  td{
+    padding:2%
+  }
+  p,ul{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px ){
+
+.main{
+	display:flex;
+	flex-direction: row;
+	border: 2px solid #ddd;
+
+}
+
+.left{
+	border :2px solid #ddd;
+	margin :2%;
+	padding : 2%;
+	width :90%;
+	text-align: center;
+}
+img{
+	display:block;
+	border : 3px dashed black;
+	border-radius: 60%;
+	width:200px;
+	margin: auto;
+
+}
+
+.right{
+
+	border : 2px solid #ddd;
+	margin : 2%;
+	padding: 2%;
+	width: 70%;
+}
+
+table{
+	border:2px solid #ddd;
+    width:90%;
+    padding: 2%;
+    font-size: 20px;
+
+}
+ol{
+	font-size: 18px;
+}
+
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px ){
+	.main{
+	display:flex;
+	flex-direction: row;
+	border: 2px solid #ddd;
+
+}
+h3,h2,p,ul{
+    word-wrap: break-word;
+ }
+  p,li{
+    font-size: 22px;
+  }
+
+.left{
+	border :2px solid #ddd;
+	margin :2%;
+	padding : 2%;
+	width :90%;
+	text-align: center;
+}
+img{
+	display:block;
+	border : 3px dashed black;
+	border-radius: 60%;
+	width:200px;
+
+}
+
+.right{
+
+	border : 2px solid #ddd;
+	margin : 2%;
+	padding: 2%;
+	width: 90%;
+}
+
+table{
+	border:2px solid #ddd;
+    width:90%;
+    padding: 2%;
+
+}
+ol{
+	font-size: 18px;
+}
+
+
+
+}
+
