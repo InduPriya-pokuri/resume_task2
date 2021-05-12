@@ -11,11 +11,13 @@
 	padding : 2%;
 	width :30%;
 	text-align: center;
+	background-color: #F08080
 }
 img{
 	display:block;
 	border : 3px dashed black;
-	border-radius: 60%;
+	border-radius: 90%;
+	width: 90%;
 
 }
 
@@ -25,18 +27,41 @@ img{
 	margin : 2%;
 	padding: 2%;
 	width: 70%;
+	background-color: #90EE90;
+
 }
 
 table{
-	border:2px solid #ddd;
-    width:90%;
-    padding: 2%;
+	width:100%;
+
+}
+
+thead{
+	background: #000;
+	color:#fff;
+	padding:1%;
+}
+
+
+tbody tr:nth-child(even){
+	background: #ddd;
+}
+
+
+.table-responsive{
+	overflow-x: auto;
 
 }
 ol{
 	font-size: 18px;
 }
+ul{
+	font-size: 20px;
+}
 
+p{
+	font-size: 20px;
+}
 
 @media only screen and (min-width:320px) and (max-width: 480px){
 	.main{
@@ -52,6 +77,12 @@ ol{
 	padding : 2%;
 	width :90%;
 	text-align: center;
+	background-color: skyblue;
+}
+.edu{
+
+	overflow-x: auto;
+	width: 70%;
 }
 
 a,h3,h4,h2,p{
@@ -61,10 +92,9 @@ a,h3,h4,h2,p{
 
 img{
 	display:block;
-	border : 3px dashed black;
+	border : 4px dashed #2F4F4F;
 	border-radius: 60%;
-
-
+	width: 90%;
 }
 .right{
 
@@ -72,6 +102,7 @@ img{
 	margin : 2%;
 	padding: 2%;
 	width: 90%;
+	background-color: pink;
 }
 table{
     width:90%
@@ -80,7 +111,7 @@ table{
     padding:2%
   }
   p,ul{
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -99,13 +130,15 @@ table{
 	padding : 2%;
 	width :90%;
 	text-align: center;
+	background-color:#DDA0DD
 }
 img{
 	display:block;
 	border : 3px dashed black;
 	border-radius: 60%;
 	width:200px;
-	margin: auto;
+	
+	width: 90%;
 
 }
 
@@ -115,6 +148,7 @@ img{
 	margin : 2%;
 	padding: 2%;
 	width: 70%;
+	background-color: #00BFFF
 }
 
 table{
@@ -126,6 +160,9 @@ table{
 }
 ol{
 	font-size: 18px;
+}
+ul{
+	font-size: 20px;
 }
 
 
@@ -141,8 +178,8 @@ ol{
 h3,h2,p,ul{
     word-wrap: break-word;
  }
-  p,li{
-    font-size: 22px;
+  p,li,a{
+    font-size: 25px;
   }
 
 .left{
@@ -150,7 +187,8 @@ h3,h2,p,ul{
 	margin :2%;
 	padding : 2%;
 	width :90%;
-	text-align: center;
+	text-align: left;
+	font-size: 20px;
 }
 img{
 	display:block;
@@ -178,7 +216,64 @@ ol{
 	font-size: 18px;
 }
 
-
+ul{
+	font-size: 20px;
+}
 
 }
+
+@media only screen and (min-width:1024px) {
+	.main{
+	display:flex;
+	flex-direction: row;
+	border: 2px solid #ddd;
+
+}
+h3,h2,p,ul{
+    word-wrap: break-word;
+ }
+  p,li,a{
+    font-size: 25px;
+  }
+
+.left{
+	border :2px solid #ddd;
+	margin :2%;
+	padding : 2%;
+	width :90%;
+	text-align: left;
+	font-size: 20px;
+}
+img{
+	display:block;
+	border : 3px dashed black;
+	border-radius: 60%;
+	width:200px;
+
+}
+
+.right{
+
+	border : 2px solid #ddd;
+	margin : 2%;
+	padding: 2%;
+	width: 90%;
+}
+
+table{
+	border:2px solid #ddd;
+    width:90%;
+    padding: 2%;
+
+}
+ol{
+	font-size: 18px;
+}
+
+ul{
+	font-size: 20px;
+}
+
+}
+
 
